@@ -1,6 +1,7 @@
 import Navigation from "@/components/Layout/Navigation";
 import Footer from "@/components/Layout/Footer";
 import { Button } from "@/components/ui/button";
+import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { Download, ArrowRight } from "lucide-react";
 
 const About = () => {
@@ -11,15 +12,17 @@ const About = () => {
       {/* Hero Section */}
       <section className="section-padding bg-surface pt-24">
         <div className="container-width">
-          <div className="max-w-4xl mx-auto space-y-12 fade-in slide-up">
-            <div className="text-center space-y-6">
-              <h1 className="text-4xl md:text-5xl font-bold text-foreground">
-                About Me
-              </h1>
-              <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                A passionate frontend developer and data analyst who creates user-centered digital experiences.
-              </p>
-            </div>
+          <div className="max-w-4xl mx-auto space-y-12">
+            <ScrollReveal direction="up">
+              <div className="text-center space-y-6">
+                <h1 className="text-4xl md:text-5xl font-bold text-foreground">
+                  About Me
+                </h1>
+                <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+                  A passionate frontend developer and data analyst who creates user-centered digital experiences.
+                </p>
+              </div>
+            </ScrollReveal>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               {/* Bio Content */}

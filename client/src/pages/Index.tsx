@@ -2,6 +2,7 @@ import Navigation from "@/components/Layout/Navigation";
 import Footer from "@/components/Layout/Footer";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MapPin, Download, Play, Code, Database, Briefcase } from "lucide-react";
+import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import heroImage from "@/assets/hero-bg.jpg";
 
 const Index = () => {
@@ -83,64 +84,72 @@ const Index = () => {
       <section className="section-padding bg-surface">
         <div className="container-width">
           <div className="text-center space-y-12">
-            <div className="space-y-4">
-              <h3 className="text-3xl font-bold">My Expertise Areas</h3>
-              <p className="text-muted-foreground max-w-2xl mx-auto">
-                Specializing in frontend development, UI/UX design, and data analytics to create impactful digital solutions
-              </p>
-            </div>
+            <ScrollReveal direction="up">
+              <div className="space-y-4">
+                <h3 className="text-3xl font-bold">My Expertise Areas</h3>
+                <p className="text-muted-foreground max-w-2xl mx-auto">
+                  Specializing in frontend development, UI/UX design, and data analytics to create impactful digital solutions
+                </p>
+              </div>
+            </ScrollReveal>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Frontend Development */}
-              <div className="card-elevated space-y-4 text-center group hover-lift slide-up" style={{animationDelay: '0.1s'}}>
-                <div className="w-16 h-16 bg-secondary/40 rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform floating">
-                  <Code className="w-8 h-8 text-foreground" />
+              <ScrollReveal direction="up" delay={0.1}>
+                <div className="card-elevated space-y-4 text-center group hover-lift">
+                  <div className="w-16 h-16 bg-secondary/40 rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform floating">
+                    <Code className="w-8 h-8 text-foreground" />
+                  </div>
+                  <h4 className="text-xl font-semibold">Frontend Development</h4>
+                  <p className="text-muted-foreground">
+                    React.js, Next.js, HTML, CSS, JavaScript to build responsive, 
+                    user-centered interfaces with modern design principles.
+                  </p>
+                  <div className="flex flex-wrap gap-2 justify-center">
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">React.js</span>
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Next.js</span>
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">JavaScript</span>
+                  </div>
                 </div>
-                <h4 className="text-xl font-semibold">Frontend Development</h4>
-                <p className="text-muted-foreground">
-                  React.js, Next.js, HTML, CSS, JavaScript to build responsive, 
-                  user-centered interfaces with modern design principles.
-                </p>
-                <div className="flex flex-wrap gap-2 justify-center">
-                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">React.js</span>
-                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Next.js</span>
-                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">JavaScript</span>
-                </div>
-              </div>
+              </ScrollReveal>
 
               {/* Data Analytics */}
-              <div className="card-elevated space-y-4 text-center group hover-lift slide-up" style={{animationDelay: '0.2s'}}>
-                <div className="w-16 h-16 bg-secondary/40 rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform floating">
-                  <Database className="w-8 h-8 text-foreground" />
+              <ScrollReveal direction="up" delay={0.2}>
+                <div className="card-elevated space-y-4 text-center group hover-lift">
+                  <div className="w-16 h-16 bg-secondary/40 rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform floating">
+                    <Database className="w-8 h-8 text-foreground" />
+                  </div>
+                  <h4 className="text-xl font-semibold">Data Analytics</h4>
+                  <p className="text-muted-foreground">
+                    SQL, Python, Tableau, Power BI, and Figma to analyze data and create 
+                    intuitive dashboards that inform design decisions.
+                  </p>
+                  <div className="flex flex-wrap gap-2 justify-center">
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Tableau</span>
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Figma</span>
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Python</span>
+                  </div>
                 </div>
-                <h4 className="text-xl font-semibold">Data Analytics</h4>
-                <p className="text-muted-foreground">
-                  SQL, Python, Tableau, Power BI, and Figma to analyze data and create 
-                  intuitive dashboards that inform design decisions.
-                </p>
-                <div className="flex flex-wrap gap-2 justify-center">
-                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Tableau</span>
-                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Figma</span>
-                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Python</span>
-                </div>
-              </div>
+              </ScrollReveal>
 
-              {/* Programming & Tools */}
-              <div className="card-elevated space-y-4 text-center group hover-lift slide-up" style={{animationDelay: '0.3s'}}>
-                <div className="w-16 h-16 bg-secondary/40 rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform floating">
-                  <Briefcase className="w-8 h-8 text-foreground" />
+              {/* UI/UX Design */}
+              <ScrollReveal direction="up" delay={0.3}>
+                <div className="card-elevated space-y-4 text-center group hover-lift">
+                  <div className="w-16 h-16 bg-secondary/40 rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform floating">
+                    <Briefcase className="w-8 h-8 text-foreground" />
+                  </div>
+                  <h4 className="text-xl font-semibold">UI/UX Design</h4>
+                  <p className="text-muted-foreground">
+                    User research, wireframing, prototyping, and visual design 
+                    to create intuitive and engaging user experiences.
+                  </p>
+                  <div className="flex flex-wrap gap-2 justify-center">
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Figma</span>
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">VS Code</span>
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">GitHub</span>
+                  </div>
                 </div>
-                <h4 className="text-xl font-semibold">UI/UX Design</h4>
-                <p className="text-muted-foreground">
-                  User research, wireframing, prototyping, and visual design 
-                  to create intuitive and engaging user experiences.
-                </p>
-                <div className="flex flex-wrap gap-2 justify-center">
-                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Figma</span>
-                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">VS Code</span>
-                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">GitHub</span>
-                </div>
-              </div>
+              </ScrollReveal>
             </div>
 
             <div className="pt-8">

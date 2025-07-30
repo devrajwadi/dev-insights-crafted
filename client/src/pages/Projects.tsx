@@ -1,6 +1,7 @@
 import Navigation from "@/components/Layout/Navigation";
 import Footer from "@/components/Layout/Footer";
 import { Button } from "@/components/ui/button";
+import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { ExternalLink, Github, ArrowRight } from "lucide-react";
 import movieImage from "@/assets/movie-app.jpg";
 import dashboardImage from "@/assets/dashboard.jpg";
@@ -77,14 +78,16 @@ const Projects = () => {
       {/* Hero Section */}
       <section className="section-padding bg-surface pt-24">
         <div className="container-width">
-          <div className="text-center space-y-6 fade-in">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground">
-              My Projects
-            </h1>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Case studies showcasing my expertise in frontend development, UI/UX design, and data analytics—from concept to code to insights.
-            </p>
-          </div>
+          <ScrollReveal direction="up">
+            <div className="text-center space-y-6">
+              <h1 className="text-4xl md:text-5xl font-bold text-foreground">
+                My Projects
+              </h1>
+              <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+                Case studies showcasing my expertise in frontend development, UI/UX design, and data analytics—from concept to code to insights.
+              </p>
+            </div>
+          </ScrollReveal>
         </div>
       </section>
 
