@@ -1,0 +1,61 @@
+🔧 Prompt for Portfolio Generator or Personal Reference:
+"Create a sleek, modern UI/UX Designer portfolio for a frontend-focused developer with data storytelling skills. The person is Dev Rajwadi, based in Hyderabad, India, with strong experience in frontend development (React.js, HTML, CSS, Next.js) and data analytics (SQL, Python, Tableau, Power BI). The portfolio should highlight both technical skills and user-centered design thinking. The key sections should include:
+
+Home/Landing Page
+
+Clean hero section with name, title ("Frontend Developer & Data Analyst"), location, and call-to-action buttons (View Projects, Download Resume).
+
+Aesthetic, bold typography and modern layout.
+
+About Page
+
+A short, friendly bio emphasizing skills in building user-centric interfaces and analyzing data to inform design decisions.
+
+Soft skills like collaboration, problem-solving, and storytelling.
+
+Downloadable resume link.
+
+Projects/Case Studies Page
+
+Each project should have a visual thumbnail, title, short summary, tech stack badges, and "View Details" button.
+
+Example projects to include:
+
+Movie Watchlist App: Focus on UI responsiveness and UX flow for tracking movies.
+
+E-Commerce Dashboard: Showcase how insights drive UX improvements.
+
+Mental Health LLM (Unwire): Highlight accessibility, privacy, and user empathy.
+
+Portfolio Website: Explain the design process and performance optimization.
+
+Each case study should follow a structured format:
+Overview → Problem → Solution (UI/UX approach) → Tools Used → Outcome → Screenshots or GIFs
+
+Design Process Page
+
+Explain a general design methodology: Research → Empathy → Wireframes → Prototyping → Feedback → Final UI.
+
+Include tools used (Figma, Tableau, etc.), and how data informs design.
+
+Add visuals like low-fidelity to high-fidelity transitions or dashboard insights.
+
+Resume & Contact Page
+
+Embedded resume viewer or downloadable link.
+
+Simple contact form + social links (LinkedIn, GitHub, Email).
+
+Footer with minimal aesthetic.
+
+Design Aesthetic
+
+Use clean, minimal UI inspired by modern dashboards and SaaS portfolios.
+
+Colors: Soft neutrals with an accent color (e.g., blue or teal).
+
+Fonts: Professional and geometric (e.g., Inter, Poppins).
+
+Animations: Subtle, scroll-based transitions to highlight interactivity.
+
+The entire portfolio should reflect a hybrid profile — someone who values both visual design and data-backed decision-making in crafting experiences."

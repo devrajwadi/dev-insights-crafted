@@ -103,10 +103,10 @@ const Contact = () => {
                 <h3 className="font-medium text-foreground">Connect with me</h3>
                 <div className="flex space-x-4">
                   <a
-                    href="https://linkedin.com/in/devrajwadi"
+                    href="https://www.linkedin.com/in/dev-rajwadi-9a9385280"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-12 h-12 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center hover:bg-blue-100 transition-colors"
+                    className="w-12 h-12 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center hover:bg-blue-100 transition-colors hover-glow"
                   >
                     <Linkedin className="h-5 w-5" />
                   </a>
@@ -114,7 +114,7 @@ const Contact = () => {
                     href="https://github.com/devrajwadi"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-12 h-12 bg-gray-50 text-gray-600 rounded-lg flex items-center justify-center hover:bg-gray-100 transition-colors"
+                    className="w-12 h-12 bg-gray-50 text-gray-600 rounded-lg flex items-center justify-center hover:bg-gray-100 transition-colors hover-glow"
                   >
                     <Github className="h-5 w-5" />
                   </a>

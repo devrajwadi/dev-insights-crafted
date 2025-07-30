@@ -1,0 +1,80 @@
+Great! Below is the complete content structure for your new UI/UX Designer + Frontend Developer Portfolio, based on your resume and goals.
+
+🌟 HOMEPAGE (Landing)
+Hero Section
+vbnet
+Copy
+Edit
+Hi, I'm Dev Rajwadi 👋  
+Frontend Developer & Data Analyst  
+Passionate about designing user-focused digital experiences powered by data.  
+[View Projects] [Download Resume]
+
+👨‍💻 ABOUT ME
+Short Bio:
+I’m a frontend developer and data analyst based in Hyderabad, India, currently pursuing Computer Science at Keshav Memorial Engineering College. I specialize in crafting intuitive and responsive web interfaces while applying data-driven decision-making to improve product experiences.
+
+With a strong foundation in React.js, Next.js, Python, and SQL, I enjoy solving real-world problems at the intersection of design, development, and insights. Whether it's building a sleek dashboard or developing an AI-based mental health tool, I focus on how users feel and interact with technology.
+
+Skills Summary:
+Frontend: React.js, Next.js, HTML, CSS, JavaScript
+
+Design Tools: Figma, Tableau, Power BI
+
+Data: SQL, Python (Pandas, Seaborn, Matplotlib)
+
+Soft Skills: Analytical Thinking, Communication, Team Collaboration
+
+🧩 PROJECTS / CASE STUDIES
+1. 🎬 Movie Watchlist App
+Tech: MERN Stack, OMDb API, Vercel
+Role: UI Design, Frontend Dev, API Integration
+Problem: Users wanted a clean way to track and explore movies online.
+Solution: Designed a modern UI with movie search, watchlist toggle, and responsive layout using React.
+Impact: Enhanced user experience for organizing movie preferences across devices.
+→ [Live Demo] | [Code]
+
+2. 📊 E-Commerce Sales Dashboard
+Tech: SQL, Python, Tableau
+Role: Data Analyst & Dashboard Designer
+Problem: Businesses needed better visibility into sales trends and churn.
+Solution: Designed an interactive Tableau dashboard to visualize KPIs using clean, intuitive graphs.
+Impact: Enabled data-driven marketing and retention strategies.
+→ [Dashboard Link]
+
+3. 🧠 Unwire – Mental Health LLM Tool
+Tech: NLP, Python, BERT, Web UI
+Role: UX Flow Design, AI Integration
+Problem: Lack of quick mental health screening tools.
+Solution: Built a web app powered by a BERT model to classify user responses and give personalized mental health resources.
+Impact: Made early mental health support more accessible and private.
+→ [Project Video] | [Report]
+
+4. 🌐 Personal Portfolio Website
+Tech: Next.js, Vercel
+Role: Designer + Developer
+Problem: I needed a platform to showcase my work in a minimal and effective way.
+Solution: Designed a fast, SEO-optimized portfolio with clean animations and smooth navigation.
+Impact: Reduced bounce rate and increased recruiter engagement.
+→ [Live Website]
+
+🧭 DESIGN PROCESS
+My Approach:
+Empathize: Understand user needs using analytics, feedback, and pain points.
+
+Define: Identify the core problems using problem statements or user stories.
+
+Ideate: Brainstorm wireframes and flow charts (low fidelity using Figma or pen & paper).
+
+Prototype: Build interactive UIs (React, Tableau, etc.).
+
+Test & Iterate: Improve based on user feedback, metrics, or usability testing.
+
+Tools I Use:
+Figma – UI Design, Wireframes, Prototypes
+
+Tableau/Power BI – Dashboard Design
+
+VS Code, GitHub – Dev & Collaboration
+
+Vercel/Render – Deployment

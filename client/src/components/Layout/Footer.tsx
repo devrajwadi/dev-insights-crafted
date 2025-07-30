@@ -57,21 +57,21 @@ const Footer = () => {
                 href="https://github.com/devrajwadi"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-colors"
+                className="text-muted-foreground hover:text-primary transition-colors hover-glow"
               >
                 <Github size={20} />
               </a>
               <a
-                href="https://linkedin.com/in/devrajwadi"
+                href="https://www.linkedin.com/in/dev-rajwadi-9a9385280"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-colors"
+                className="text-muted-foreground hover:text-primary transition-colors hover-glow"
               >
                 <Linkedin size={20} />
               </a>
               <a
-                href="mailto:devrajwadi@gmail.com"
-                className="text-muted-foreground hover:text-primary transition-colors"
+                href="mailto:devrajwadi11@gmail.com"
+                className="text-muted-foreground hover:text-primary transition-colors hover-glow"
               >
                 <Mail size={20} />
               </a>

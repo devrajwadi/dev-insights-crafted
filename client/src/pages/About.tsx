@@ -11,7 +11,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="section-padding bg-surface pt-24">
         <div className="container-width">
-          <div className="max-w-4xl mx-auto space-y-12 fade-in">
+          <div className="max-w-4xl mx-auto space-y-12 fade-in slide-up">
             <div className="text-center space-y-6">
               <h1 className="text-4xl md:text-5xl font-bold text-foreground">
                 About Me
@@ -23,7 +23,7 @@ const About = () => {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               {/* Bio Content */}
-              <div className="space-y-6">
+              <div className="space-y-6 slide-in-left">
                 <div className="space-y-4">
                   <h2 className="text-2xl font-semibold text-foreground">
                     Hi, I'm Dev Rajwadi 👋
@@ -73,7 +73,7 @@ const About = () => {
               </div>
 
               {/* Skills & Stats */}
-              <div className="space-y-8">
+              <div className="space-y-8 slide-in-right">
                 <div className="card-elevated">
                   <h3 className="text-xl font-semibold mb-6">Technical Skills</h3>
                   <div className="space-y-4">
