@@ -10,33 +10,33 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Movie Watchlist App",
-      description: "A modern movie tracking application with search, watchlist features, and responsive design using the OMDb API.",
+      title: "Movie Watchlist (MERN Stack)",
+      description: "Developed a full-stack movie tracking app using React, Express, and MongoDB. Integrated OMDb API for real-time data, implemented secure RESTful routing, and designed a responsive UI deployed on Vercel and Render.",
       image: movieImage,
-      technologies: ["React.js", "OMDb API", "CSS", "Vercel"],
-      features: ["Movie Search", "Watchlist Management", "Responsive Design", "API Integration"],
+      technologies: ["React.js", "Express", "MongoDB", "OMDb API", "Vercel", "Render"],
+      features: ["Real-time Movie Data", "Secure Authentication", "RESTful API", "Responsive Design"],
       liveUrl: "#",
       githubUrl: "#",
-      category: "Frontend Development"
+      category: "Full-Stack Development"
     },
     {
       id: 2,
-      title: "E-Commerce Sales Dashboard",
-      description: "Interactive Tableau dashboard visualizing KPIs, sales trends, and customer insights for data-driven business decisions.",
+      title: "E-Commerce Sales Performance Dashboard",
+      description: "Analyzed sales data to uncover revenue trends and customer behavior. Created an interactive Tableau dashboard to monitor KPIs, improve marketing strategies, and reduce churn.",
       image: dashboardImage,
-      technologies: ["Tableau", "SQL", "Python", "Data Visualization"],
-      features: ["KPI Tracking", "Sales Analytics", "Customer Insights", "Interactive Charts"],
+      technologies: ["Python", "SQL", "Tableau", "Data Visualization"],
+      features: ["Revenue Trend Analysis", "Customer Behavior Insights", "KPI Monitoring", "Marketing Strategy Optimization"],
       liveUrl: "#",
       githubUrl: "#",
       category: "Data Analytics"
     },
     {
       id: 3,
-      title: "Unwire - Mental Health LLM",
-      description: "AI-powered mental health screening tool using BERT model for response classification and personalized resource recommendations.",
+      title: "Unwire – Mental Health LLM Screening Tool",
+      description: "Built an AI-powered screening platform using NLP and BERT for text classification. Delivered personalized recommendations, ensured secure data handling, and improved accessibility to mental health resources.",
       image: mentalHealthImage,
-      technologies: ["Python", "BERT", "NLP", "Web UI"],
-      features: ["AI Classification", "Mental Health Screening", "Privacy-Focused", "Resource Recommendations"],
+      technologies: ["Python", "BERT", "NLP", "Text Classification", "Web UI"],
+      features: ["AI Text Classification", "Personalized Recommendations", "Secure Data Handling", "Mental Health Screening"],
       liveUrl: "#",
       githubUrl: "#",
       category: "AI/ML"
@@ -44,10 +44,10 @@ const Projects = () => {
     {
       id: 4,
       title: "Personal Portfolio Website",
-      description: "This very portfolio - a fast, SEO-optimized showcase built with modern web technologies and design principles.",
+      description: "Designed and built a fast, responsive personal portfolio using modern web technologies with smooth navigation, optimized SEO, and seamless deployment to showcase projects and skills.",
       image: "/placeholder.svg",
-      technologies: ["Next.js", "Tailwind CSS", "TypeScript", "Vercel"],
-      features: ["Responsive Design", "SEO Optimized", "Fast Performance", "Modern UI"],
+      technologies: ["React.js", "TypeScript", "Tailwind CSS", "Vite", "Replit"],
+      features: ["Dark Theme", "Smooth Animations", "SEO Optimized", "Responsive Design"],
       liveUrl: "#",
       githubUrl: "#",
       category: "Frontend Development"

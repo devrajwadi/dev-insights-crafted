@@ -1,7 +1,7 @@
 import Navigation from "@/components/Layout/Navigation";
 import Footer from "@/components/Layout/Footer";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, MapPin, Download, Play } from "lucide-react";
+import { ArrowRight, MapPin, Download, Play, Code, Database, Briefcase } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
 
 const Index = () => {
@@ -25,11 +25,11 @@ const Index = () => {
         <div className="relative z-10 container-width section-padding text-center">
           <div className="max-w-4xl mx-auto space-y-8 fade-in">
             {/* Greeting */}
-            <div className="space-y-4">
-              <p className="text-primary font-medium text-lg">
+            <div className="space-y-4 slide-up">
+              <p className="text-primary font-medium text-lg floating">
                 👋 Hi, I'm
               </p>
-              <h1 className="text-5xl md:text-7xl font-bold text-foreground">
+              <h1 className="text-5xl md:text-7xl font-bold text-foreground glow-pulse">
                 Dev Rajwadi
               </h1>
               <h2 className="text-2xl md:text-3xl font-medium text-gradient">
@@ -38,9 +38,9 @@ const Index = () => {
             </div>
 
             {/* Description */}
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Passionate about designing user-focused digital experiences powered by data. 
-              I craft intuitive interfaces while applying analytical insights to create meaningful solutions.
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed slide-in-left">
+              Versatile Frontend Developer & Data Analyst skilled in React.js, Java, Python, SQL, Power BI, and
+              Tableau, passionate about creating user-focused web applications and extracting actionable insights.
             </p>
 
             {/* Location */}
@@ -50,19 +50,19 @@ const Index = () => {
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8 slide-in-right">
               <a href="/projects">
-                <Button className="btn-hero group">
+                <Button className="btn-hero group hover-glow">
                   View Projects
                   <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </a>
               <a 
-                href="/resume.pdf" 
+                href="/DevRajwadi_Resume.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <Button className="btn-ghost group">
+                <Button className="btn-ghost group hover-lift">
                   <Download size={18} className="mr-2" />
                   Download Resume
                 </Button>
@@ -92,53 +92,53 @@ const Index = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Frontend Development */}
-              <div className="card-elevated space-y-4 text-center group">
-                <div className="w-16 h-16 bg-primary-light rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform">
-                  <div className="text-2xl">⚡</div>
+              <div className="card-elevated space-y-4 text-center group hover-lift slide-up" style={{animationDelay: '0.1s'}}>
+                <div className="w-16 h-16 bg-primary/20 rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform floating">
+                  <Code className="w-8 h-8 text-primary" />
                 </div>
                 <h4 className="text-xl font-semibold">Frontend Development</h4>
                 <p className="text-muted-foreground">
-                  React.js, Next.js, TypeScript, and modern CSS frameworks to build responsive, 
-                  performant user interfaces.
+                  React.js, HTML, CSS, JavaScript, and Git to build responsive, 
+                  performant user interfaces with modern development practices.
                 </p>
                 <div className="flex flex-wrap gap-2 justify-center">
-                  <span className="px-3 py-1 bg-primary-light text-primary text-sm rounded-full">React</span>
-                  <span className="px-3 py-1 bg-primary-light text-primary text-sm rounded-full">Next.js</span>
-                  <span className="px-3 py-1 bg-primary-light text-primary text-sm rounded-full">TypeScript</span>
+                  <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">React.js</span>
+                  <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">JavaScript</span>
+                  <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">HTML/CSS</span>
                 </div>
               </div>
 
               {/* Data Analytics */}
-              <div className="card-elevated space-y-4 text-center group">
-                <div className="w-16 h-16 bg-accent-light rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform">
-                  <div className="text-2xl">📊</div>
+              <div className="card-elevated space-y-4 text-center group hover-lift slide-up" style={{animationDelay: '0.2s'}}>
+                <div className="w-16 h-16 bg-accent/20 rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform floating">
+                  <Database className="w-8 h-8 text-accent" />
                 </div>
                 <h4 className="text-xl font-semibold">Data Analytics</h4>
                 <p className="text-muted-foreground">
-                  SQL, Python, Tableau, and Power BI to extract insights that inform 
-                  design decisions and improve user experiences.
+                  SQL, Python (Pandas, NumPy, Matplotlib, Seaborn), Power BI, and Tableau for 
+                  data cleaning, EDA, and business intelligence.
                 </p>
                 <div className="flex flex-wrap gap-2 justify-center">
-                  <span className="px-3 py-1 bg-accent-light text-accent text-sm rounded-full">Python</span>
-                  <span className="px-3 py-1 bg-accent-light text-accent text-sm rounded-full">SQL</span>
-                  <span className="px-3 py-1 bg-accent-light text-accent text-sm rounded-full">Tableau</span>
+                  <span className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">Python</span>
+                  <span className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">SQL</span>
+                  <span className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">Power BI</span>
                 </div>
               </div>
 
-              {/* UX Design */}
-              <div className="card-elevated space-y-4 text-center group">
-                <div className="w-16 h-16 bg-secondary rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform">
-                  <div className="text-2xl">🎨</div>
+              {/* Programming & Tools */}
+              <div className="card-elevated space-y-4 text-center group hover-lift slide-up" style={{animationDelay: '0.3s'}}>
+                <div className="w-16 h-16 bg-secondary/40 rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform floating">
+                  <Briefcase className="w-8 h-8 text-foreground" />
                 </div>
-                <h4 className="text-xl font-semibold">UX Design</h4>
+                <h4 className="text-xl font-semibold">Programming & Tools</h4>
                 <p className="text-muted-foreground">
-                  User research, wireframing, and prototyping with Figma to create 
-                  intuitive, accessible digital experiences.
+                  Java, Python, JavaScript with tools like GitHub, VS Code, Firebase, 
+                  Vercel, and Postman for full-stack development.
                 </p>
                 <div className="flex flex-wrap gap-2 justify-center">
-                  <span className="px-3 py-1 bg-secondary text-secondary-foreground text-sm rounded-full">Figma</span>
-                  <span className="px-3 py-1 bg-secondary text-secondary-foreground text-sm rounded-full">UX Research</span>
-                  <span className="px-3 py-1 bg-secondary text-secondary-foreground text-sm rounded-full">Prototyping</span>
+                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Java</span>
+                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Python</span>
+                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">GitHub</span>
                 </div>
               </div>
             </div>

@@ -81,8 +81,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-medium text-foreground">Email</h3>
-                    <a href="mailto:devrajwadi@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
-                      devrajwadi@gmail.com
+                    <a href="mailto:devrajwadi11@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                      devrajwadi11@gmail.com
                     </a>
                   </div>
                 </div>
@@ -122,7 +122,7 @@ const Contact = () => {
               </div>
 
               {/* Resume Download */}
-              <div className="card-elevated">
+              <div className="card-elevated p-4">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-3">
                     <User className="h-5 w-5 text-primary" />
@@ -132,11 +132,11 @@ const Contact = () => {
                     </div>
                   </div>
                   <a 
-                    href="/resume.pdf" 
+                    href="/DevRajwadi_Resume.pdf" 
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
-                    <Button size="sm" className="btn-ghost">
+                    <Button size="sm" className="btn-ghost hover-glow">
                       <Download size={16} className="mr-2" />
                       Download
                     </Button>
