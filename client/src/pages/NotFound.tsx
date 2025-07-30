@@ -2,7 +2,7 @@ import Navigation from "@/components/Layout/Navigation";
 import Footer from "@/components/Layout/Footer";
 import { Button } from "@/components/ui/button";
 import { Home, ArrowLeft } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link } from "wouter";
 
 const NotFound = () => {
   return (

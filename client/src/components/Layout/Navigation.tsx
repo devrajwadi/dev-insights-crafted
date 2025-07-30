@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'wouter';
 import { Menu, X } from 'lucide-react';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const location = useLocation();
+  const [location] = useLocation();
 
   const navigation = [
     { name: 'Home', href: '/' },
@@ -15,7 +15,7 @@ const Navigation = () => {
   ];
 
   const isActive = (path: string) => {
-    return location.pathname === path;
+    return location === path;
   };
 
   return (
