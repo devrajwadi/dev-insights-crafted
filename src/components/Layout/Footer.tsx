@@ -1,42 +1,58 @@
-import { Github, Linkedin, Mail, Heart } from "lucide-react";
+import { Github, Linkedin, Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <footer className="bg-surface border-t border-border">
       <div className="container-width section-padding">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="font-bold text-lg">Dev Rajwadi</h3>
-            <p className="text-muted-foreground leading-relaxed">
-              Frontend Developer & Data Analyst passionate about creating user-centered 
-              digital experiences powered by insights.
+            <Link to="/" className="flex items-center space-x-2">
+              <div className="w-8 h-8 bg-gradient-to-r from-primary to-accent rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-sm">DR</span>
+              </div>
+              <span className="font-semibold text-foreground">Dev Rajwadi</span>
+            </Link>
+            <p className="text-sm text-muted-foreground">
+              Frontend Developer & Data Analyst creating user-focused digital experiences.
             </p>
           </div>
 
           {/* Quick Links */}
           <div className="space-y-4">
-            <h4 className="font-semibold">Quick Links</h4>
-            <div className="grid grid-cols-2 gap-2">
-              <a href="/about" className="text-muted-foreground hover:text-primary transition-colors">
+            <h3 className="font-semibold text-foreground">Quick Links</h3>
+            <div className="space-y-2">
+              <Link to="/about" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
                 About
-              </a>
-              <a href="/projects" className="text-muted-foreground hover:text-primary transition-colors">
+              </Link>
+              <Link to="/projects" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
                 Projects
-              </a>
-              <a href="/process" className="text-muted-foreground hover:text-primary transition-colors">
+              </Link>
+              <Link to="/process" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
                 Process
-              </a>
-              <a href="/contact" className="text-muted-foreground hover:text-primary transition-colors">
+              </Link>
+              <Link to="/contact" className="block text-sm text-muted-foreground hover:text-primary transition-colors">
                 Contact
-              </a>
+              </Link>
+            </div>
+          </div>
+
+          {/* Skills */}
+          <div className="space-y-4">
+            <h3 className="font-semibold text-foreground">Skills</h3>
+            <div className="space-y-2">
+              <span className="block text-sm text-muted-foreground">React.js</span>
+              <span className="block text-sm text-muted-foreground">Next.js</span>
+              <span className="block text-sm text-muted-foreground">Python</span>
+              <span className="block text-sm text-muted-foreground">Tableau</span>
             </div>
           </div>
 
           {/* Contact */}
           <div className="space-y-4">
-            <h4 className="font-semibold">Get In Touch</h4>
-            <div className="flex items-center space-x-4">
+            <h3 className="font-semibold text-foreground">Connect</h3>
+            <div className="flex space-x-4">
               <a
                 href="https://github.com/devrajwadi"
                 target="_blank"
@@ -54,25 +70,24 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="mailto:dev.rajwadi@gmail.com"
+                href="mailto:devrajwadi@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail size={20} />
               </a>
             </div>
-            <p className="text-sm text-muted-foreground">
-              📍 Based in Hyderabad, India
-            </p>
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-muted-foreground">
-            © 2024 Dev Rajwadi. All rights reserved.
-          </p>
-          <p className="text-sm text-muted-foreground flex items-center mt-4 md:mt-0">
-            Made with <Heart size={16} className="mx-1 text-red-500" /> and lots of coffee
-          </p>
+        <div className="mt-12 pt-8 border-t border-border">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <p className="text-sm text-muted-foreground">
+              © 2024 Dev Rajwadi. All rights reserved.
+            </p>
+            <p className="text-sm text-muted-foreground">
+              Built with React & Tailwind CSS
+            </p>
+          </div>
         </div>
       </div>
     </footer>
