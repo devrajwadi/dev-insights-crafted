@@ -29,7 +29,7 @@ const Index = () => {
               <p className="text-primary font-medium text-lg floating">
                 👋 Hi, I'm
               </p>
-              <h1 className="text-5xl md:text-7xl font-bold text-foreground glow-pulse">
+              <h1 className="text-5xl md:text-7xl font-bold text-foreground">
                 Dev Rajwadi
               </h1>
               <h2 className="text-2xl md:text-3xl font-medium text-gradient">
@@ -92,8 +92,8 @@ const Index = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Frontend Development */}
               <div className="card-elevated space-y-4 text-center group hover-lift slide-up" style={{animationDelay: '0.1s'}}>
-                <div className="w-16 h-16 bg-primary/20 rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform floating">
-                  <Code className="w-8 h-8 text-primary" />
+                <div className="w-16 h-16 bg-secondary/40 rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform floating">
+                  <Code className="w-8 h-8 text-foreground" />
                 </div>
                 <h4 className="text-xl font-semibold">Frontend Development</h4>
                 <p className="text-muted-foreground">
@@ -101,26 +101,26 @@ const Index = () => {
                   user-centered interfaces with modern design principles.
                 </p>
                 <div className="flex flex-wrap gap-2 justify-center">
-                  <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">React.js</span>
-                  <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">Next.js</span>
-                  <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">JavaScript</span>
+                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">React.js</span>
+                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Next.js</span>
+                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">JavaScript</span>
                 </div>
               </div>
 
               {/* Data Analytics */}
               <div className="card-elevated space-y-4 text-center group hover-lift slide-up" style={{animationDelay: '0.2s'}}>
-                <div className="w-16 h-16 bg-accent/20 rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform floating">
-                  <Database className="w-8 h-8 text-accent" />
+                <div className="w-16 h-16 bg-secondary/40 rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform floating">
+                  <Database className="w-8 h-8 text-foreground" />
                 </div>
-                <h4 className="text-xl font-semibold">Data & Design Tools</h4>
+                <h4 className="text-xl font-semibold">Data Analytics</h4>
                 <p className="text-muted-foreground">
                   SQL, Python, Tableau, Power BI, and Figma to analyze data and create 
                   intuitive dashboards that inform design decisions.
                 </p>
                 <div className="flex flex-wrap gap-2 justify-center">
-                  <span className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">Tableau</span>
-                  <span className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">Figma</span>
-                  <span className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">Python</span>
+                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Tableau</span>
+                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Figma</span>
+                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Python</span>
                 </div>
               </div>
 

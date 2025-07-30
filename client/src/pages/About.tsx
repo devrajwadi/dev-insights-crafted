@@ -115,8 +115,36 @@ const About = () => {
                     <div className="text-sm text-muted-foreground">Projects</div>
                   </div>
                   <div className="card-elevated text-center">
-                    <div className="text-2xl font-bold text-accent">2+</div>
-                    <div className="text-sm text-muted-foreground">Years Learning</div>
+                    <div className="text-2xl font-bold text-accent">3+</div>
+                    <div className="text-sm text-muted-foreground">Certifications</div>
+                  </div>
+                </div>
+
+                {/* Certifications Section */}
+                <div className="card-elevated">
+                  <h3 className="text-xl font-semibold mb-6">Certifications</h3>
+                  <div className="space-y-4">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
+                      <div>
+                        <h4 className="font-medium text-foreground">Deloitte Data Analytics Job Simulation</h4>
+                        <p className="text-sm text-muted-foreground">Forage</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
+                      <div>
+                        <h4 className="font-medium text-foreground">AI for Beginners</h4>
+                        <p className="text-sm text-muted-foreground">HP Life</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
+                      <div>
+                        <h4 className="font-medium text-foreground">Python Programming (SIDH)</h4>
+                        <p className="text-sm text-muted-foreground">Microsoft</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
