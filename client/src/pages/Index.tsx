@@ -33,13 +33,14 @@ const Index = () => {
                 Dev Rajwadi
               </h1>
               <h2 className="text-2xl md:text-3xl font-medium text-gradient">
-                Frontend Developer & Data Analyst
+                Frontend Developer • UI/UX Designer • Data Analyst
               </h2>
             </div>
 
             {/* Description */}
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed slide-in-left">
-              Passionate about designing user-focused digital experiences powered by data. I craft intuitive interfaces while applying analytical insights to create meaningful solutions.
+              I turn ideas into pixel-perfect interfaces and data into compelling stories. 
+              From wireframes to code, from insights to impact—I create digital experiences that users love and businesses trust.
             </p>
 
             {/* Location */}
@@ -83,9 +84,9 @@ const Index = () => {
         <div className="container-width">
           <div className="text-center space-y-12">
             <div className="space-y-4">
-              <h3 className="text-3xl font-bold">What I Bring to the Table</h3>
+              <h3 className="text-3xl font-bold">My Expertise Areas</h3>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Combining technical expertise with design thinking to create impactful digital solutions
+                Specializing in frontend development, UI/UX design, and data analytics to create impactful digital solutions
               </p>
             </div>
 
@@ -129,10 +130,10 @@ const Index = () => {
                 <div className="w-16 h-16 bg-secondary/40 rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform floating">
                   <Briefcase className="w-8 h-8 text-foreground" />
                 </div>
-                <h4 className="text-xl font-semibold">UI/UX & Development</h4>
+                <h4 className="text-xl font-semibold">UI/UX Design</h4>
                 <p className="text-muted-foreground">
-                  User research, wireframing, prototyping with modern development tools 
-                  to create seamless user experiences.
+                  User research, wireframing, prototyping, and visual design 
+                  to create intuitive and engaging user experiences.
                 </p>
                 <div className="flex flex-wrap gap-2 justify-center">
                   <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Figma</span>

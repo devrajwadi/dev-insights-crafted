@@ -82,7 +82,7 @@ const Projects = () => {
               My Projects
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Case studies showcasing my approach to UI/UX design, frontend development, and data storytelling.
+              Case studies showcasing my expertise in frontend development, UI/UX design, and data analytics—from concept to code to insights.
             </p>
           </div>
         </div>

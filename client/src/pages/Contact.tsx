@@ -59,7 +59,7 @@ const Contact = () => {
                 <h2 className="text-2xl font-semibold text-foreground">Get in Touch</h2>
                 <p className="text-muted-foreground">
                   I'm always excited to discuss new opportunities and interesting projects. 
-                  Whether you need frontend development, data analytics, or UX design, I'm here to help.
+                  Whether you need frontend development, UI/UX design, or data analytics, I'm here to help bring your ideas to life.
                 </p>
               </div>
 
@@ -103,7 +103,7 @@ const Contact = () => {
                 <h3 className="font-medium text-foreground">Connect with me</h3>
                 <div className="flex space-x-4">
                   <a
-                    href="https://www.linkedin.com/in/dev-rajwadi-9a9385280"
+                    href="https://www.linkedin.com/in/dev-rajwadi/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center hover:bg-blue-100 transition-colors hover-glow"

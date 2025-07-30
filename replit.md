@@ -14,12 +14,14 @@ This is a personal portfolio website for Dev Rajwadi, a frontend developer and d
 ## Recent Changes
 - 2025-07-30: Successfully migrated from Lovable to Replit environment
 - Converted routing from React Router DOM to wouter for compatibility
-- Implemented dark theme with vibrant neon color palette (blue/purple)
-- Added engaging animations: slide-in, glow-pulse, floating, hover effects
-- Updated all personal information from resume (email: devrajwadi11@gmail.com)
-- Updated project descriptions to match actual resume projects
-- Added downloadable resume (DevRajwadi_Resume.pdf)
-- Fixed CSS import order and font declarations
+- Implemented high contrast black/white theme (removed purple theme)
+- Updated branding: Frontend Developer • UI/UX Designer • Data Analytics
+- Added catchy hero section: "I turn ideas into pixel-perfect interfaces and data into compelling stories"
+- Removed flashing animation from name for professional look
+- Updated LinkedIn link to https://www.linkedin.com/in/dev-rajwadi/
+- Added comprehensive certifications section (Deloitte, HP Life, Microsoft)
+- Enhanced project case studies with Problem-Solution-Impact format
+- Focused entire portfolio on frontend development, UI/UX design, and data analytics
 
 ## Project Architecture
 The project follows a modern full-stack structure:
@@ -29,9 +31,11 @@ The project follows a modern full-stack structure:
 - Custom Vite setup serving both frontend and backend on port 5000
 
 ## User Preferences
-- Dark theme with engaging colors (neon blue/purple palette)
-- Moving and sliding animations for visual appeal
+- High contrast black and white theme for professional presentation
+- Focus on frontend development, UI/UX design, and data analytics
+- Catchy and interesting hero section messaging
 - Professional portfolio presentation for recruiters
+- Clean animations without flashing effects
 - Responsive design for all devices
 - Fast loading and SEO optimization
 - Updated resume and contact information
