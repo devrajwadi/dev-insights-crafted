@@ -39,8 +39,7 @@ const Index = () => {
 
             {/* Description */}
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed slide-in-left">
-              Versatile Frontend Developer & Data Analyst skilled in React.js, Java, Python, SQL, Power BI, and
-              Tableau, passionate about creating user-focused web applications and extracting actionable insights.
+              Passionate about designing user-focused digital experiences powered by data. I craft intuitive interfaces while applying analytical insights to create meaningful solutions.
             </p>
 
             {/* Location */}
@@ -98,13 +97,13 @@ const Index = () => {
                 </div>
                 <h4 className="text-xl font-semibold">Frontend Development</h4>
                 <p className="text-muted-foreground">
-                  React.js, HTML, CSS, JavaScript, and Git to build responsive, 
-                  performant user interfaces with modern development practices.
+                  React.js, Next.js, HTML, CSS, JavaScript to build responsive, 
+                  user-centered interfaces with modern design principles.
                 </p>
                 <div className="flex flex-wrap gap-2 justify-center">
                   <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">React.js</span>
+                  <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">Next.js</span>
                   <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">JavaScript</span>
-                  <span className="px-3 py-1 bg-primary/20 text-primary text-sm rounded-full">HTML/CSS</span>
                 </div>
               </div>
 
@@ -113,15 +112,15 @@ const Index = () => {
                 <div className="w-16 h-16 bg-accent/20 rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform floating">
                   <Database className="w-8 h-8 text-accent" />
                 </div>
-                <h4 className="text-xl font-semibold">Data Analytics</h4>
+                <h4 className="text-xl font-semibold">Data & Design Tools</h4>
                 <p className="text-muted-foreground">
-                  SQL, Python (Pandas, NumPy, Matplotlib, Seaborn), Power BI, and Tableau for 
-                  data cleaning, EDA, and business intelligence.
+                  SQL, Python, Tableau, Power BI, and Figma to analyze data and create 
+                  intuitive dashboards that inform design decisions.
                 </p>
                 <div className="flex flex-wrap gap-2 justify-center">
+                  <span className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">Tableau</span>
+                  <span className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">Figma</span>
                   <span className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">Python</span>
-                  <span className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">SQL</span>
-                  <span className="px-3 py-1 bg-accent/20 text-accent text-sm rounded-full">Power BI</span>
                 </div>
               </div>
 
@@ -130,14 +129,14 @@ const Index = () => {
                 <div className="w-16 h-16 bg-secondary/40 rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform floating">
                   <Briefcase className="w-8 h-8 text-foreground" />
                 </div>
-                <h4 className="text-xl font-semibold">Programming & Tools</h4>
+                <h4 className="text-xl font-semibold">UI/UX & Development</h4>
                 <p className="text-muted-foreground">
-                  Java, Python, JavaScript with tools like GitHub, VS Code, Firebase, 
-                  Vercel, and Postman for full-stack development.
+                  User research, wireframing, prototyping with modern development tools 
+                  to create seamless user experiences.
                 </p>
                 <div className="flex flex-wrap gap-2 justify-center">
-                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Java</span>
-                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Python</span>
+                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Figma</span>
+                  <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">VS Code</span>
                   <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">GitHub</span>
                 </div>
               </div>

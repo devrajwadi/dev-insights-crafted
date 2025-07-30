@@ -29,10 +29,10 @@ const About = () => {
                     Hi, I'm Dev Rajwadi 👋
                   </h2>
                   <p className="text-muted-foreground leading-relaxed">
-                    I'm a versatile Frontend Developer & Data Analyst based in Hyderabad, India, currently pursuing Computer Science at Keshav Memorial Engineering College. I specialize in React.js, Java, Python, SQL, Power BI, and Tableau, creating user-focused web applications and extracting actionable insights.
+                    I'm a frontend developer and data analyst based in Hyderabad, India, currently pursuing Computer Science at Keshav Memorial Engineering College. I specialize in crafting intuitive and responsive web interfaces while applying data-driven decision-making to improve product experiences.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    With strong foundations in data structures, algorithms, DBMS, and machine learning, I excel at solving real-world problems through both frontend development and data analytics. My projects range from full-stack MERN applications to AI-powered tools and interactive dashboards.
+                    With a strong foundation in React.js, Next.js, Python, and SQL, I enjoy solving real-world problems at the intersection of design, development, and insights. Whether it's building a sleek dashboard or developing an AI-based mental health tool, I focus on how users feel and interact with technology.
                   </p>
                 </div>
 
