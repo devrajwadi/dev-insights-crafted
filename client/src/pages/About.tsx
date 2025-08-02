@@ -3,6 +3,7 @@ import Footer from "@/components/Layout/Footer";
 import { Button } from "@/components/ui/button";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { Download, ArrowRight } from "lucide-react";
+import { Link } from "wouter";
 
 const About = () => {
   return (
@@ -154,12 +155,12 @@ const About = () => {
             </div>
 
             <div className="text-center pt-8">
-              <a href="/projects">
+              <Link to="/projects">
                 <Button className="btn-ghost">
                   View My Projects
                   <ArrowRight size={18} className="ml-2" />
                 </Button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
