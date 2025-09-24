@@ -1,7 +1,15 @@
 import Navigation from "@/components/Layout/Navigation";
 import Footer from "@/components/Layout/Footer";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, MapPin, Download, Play, Code, Database, Briefcase } from "lucide-react";
+import {
+  ArrowRight,
+  MapPin,
+  Download,
+  Play,
+  Code,
+  Database,
+  Briefcase,
+} from "lucide-react";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import heroImage from "@/assets/hero-bg.jpg";
 
@@ -9,19 +17,19 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
-      
+
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
-          <img 
-            src={heroImage} 
+          <img
+            src={heroImage}
             alt="Hero Background"
             className="w-full h-full object-cover opacity-10"
           />
           <div className="absolute inset-0 bg-gradient-hero opacity-90"></div>
         </div>
-        
+
         {/* Content */}
         <div className="relative z-10 container-width section-padding text-center">
           <div className="max-w-4xl mx-auto space-y-8 fade-in">
@@ -40,8 +48,10 @@ const Index = () => {
 
             {/* Description */}
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed slide-in-left">
-              I turn ideas into pixel-perfect interfaces and data into compelling stories. 
-              From wireframes to code, from insights to impact—I create digital experiences that users love and businesses trust.
+              I turn ideas into pixel-perfect interfaces and data into
+              compelling stories. From wireframes to code, from insights to
+              impact—I create digital experiences that users love and businesses
+              trust.
             </p>
 
             {/* Location */}
@@ -51,23 +61,61 @@ const Index = () => {
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8 slide-in-right">
-              <a href="/projects">
-                <Button className="btn-hero group hover-glow">
-                  View Projects
-                  <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </a>
-              <a 
-                href="/DevRajwadi_Resume.pdf" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <Button className="btn-ghost group hover-lift">
-                  <Download size={18} className="mr-2" />
-                  Download Resume
-                </Button>
-              </a>
+            <div className="flex flex-col gap-4 justify-center items-center pt-8 slide-in-right">
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a href="/projects">
+                  <Button className="btn-hero group hover-glow">
+                    View Projects
+                    <ArrowRight
+                      size={18}
+                      className="ml-2 group-hover:translate-x-1 transition-transform"
+                    />
+                  </Button>
+                </a>
+              </div>
+
+              {/* Role-specific resumes */}
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full max-w-2xl">
+                <a
+                  href="/resumes/DevRajwadi_Frontend_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    className="btn-ghost w-full group hover-lift"
+                    variant="outline"
+                  >
+                    <Download size={18} className="mr-2" />
+                    Frontend Resume
+                  </Button>
+                </a>
+                <a
+                  href="/resumes/DevRajwadi_Data_Analyst_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    className="btn-ghost w-full group hover-lift"
+                    variant="outline"
+                  >
+                    <Download size={18} className="mr-2" />
+                    Data Analyst Resume
+                  </Button>
+                </a>
+                <a
+                  href="/resumes/DevRajwadi_UIUX_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    className="btn-ghost w-full group hover-lift"
+                    variant="outline"
+                  >
+                    <Download size={18} className="mr-2" />
+                    UI/UX Resume
+                  </Button>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -88,7 +136,8 @@ const Index = () => {
               <div className="space-y-4">
                 <h3 className="text-3xl font-bold">My Expertise Areas</h3>
                 <p className="text-muted-foreground max-w-2xl mx-auto">
-                  Specializing in frontend development, UI/UX design, and data analytics to create impactful digital solutions
+                  Specializing in frontend development, UI/UX design, and data
+                  analytics to create impactful digital solutions
                 </p>
               </div>
             </ScrollReveal>
@@ -100,15 +149,24 @@ const Index = () => {
                   <div className="w-16 h-16 bg-secondary/40 rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform floating">
                     <Code className="w-8 h-8 text-foreground" />
                   </div>
-                  <h4 className="text-xl font-semibold">Frontend Development</h4>
+                  <h4 className="text-xl font-semibold">
+                    Frontend Development
+                  </h4>
                   <p className="text-muted-foreground">
-                    React.js, Next.js, HTML, CSS, JavaScript to build responsive, 
-                    user-centered interfaces with modern design principles.
+                    React.js, Next.js, HTML, CSS, JavaScript to build
+                    responsive, user-centered interfaces with modern design
+                    principles.
                   </p>
                   <div className="flex flex-wrap gap-2 justify-center">
-                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">React.js</span>
-                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Next.js</span>
-                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">JavaScript</span>
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">
+                      React.js
+                    </span>
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">
+                      Next.js
+                    </span>
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">
+                      JavaScript
+                    </span>
                   </div>
                 </div>
               </ScrollReveal>
@@ -121,13 +179,20 @@ const Index = () => {
                   </div>
                   <h4 className="text-xl font-semibold">Data Analytics</h4>
                   <p className="text-muted-foreground">
-                    SQL, Python, Tableau, Power BI, and Figma to analyze data and create 
-                    intuitive dashboards that inform design decisions.
+                    SQL, Python, Tableau, Power BI, and Figma to analyze data
+                    and create intuitive dashboards that inform design
+                    decisions.
                   </p>
                   <div className="flex flex-wrap gap-2 justify-center">
-                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Tableau</span>
-                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Figma</span>
-                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Python</span>
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">
+                      Tableau
+                    </span>
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">
+                      Figma
+                    </span>
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">
+                      Python
+                    </span>
                   </div>
                 </div>
               </ScrollReveal>
@@ -140,13 +205,19 @@ const Index = () => {
                   </div>
                   <h4 className="text-xl font-semibold">UI/UX Design</h4>
                   <p className="text-muted-foreground">
-                    User research, wireframing, prototyping, and visual design 
+                    User research, wireframing, prototyping, and visual design
                     to create intuitive and engaging user experiences.
                   </p>
                   <div className="flex flex-wrap gap-2 justify-center">
-                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">Figma</span>
-                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">VS Code</span>
-                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">GitHub</span>
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">
+                      Figma
+                    </span>
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">
+                      VS Code
+                    </span>
+                    <span className="px-3 py-1 bg-secondary/40 text-foreground text-sm rounded-full">
+                      GitHub
+                    </span>
                   </div>
                 </div>
               </ScrollReveal>
